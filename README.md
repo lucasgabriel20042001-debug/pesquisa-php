@@ -52,25 +52,18 @@ Outra curiosidade é que o PHP é uma linguagem de código aberto (Open Source),
 
 O PHP também é conhecido por sua facilidade de integração com HTML, característica que contribuiu significativamente para sua popularidade durante o crescimento da internet.
 
-Mesmo após o surgimento de diversas tecnologias modernas, o PHP continua sendo amplamente utilizado e atualizado, mantendo sua relevância no mercado de desenvolvimento web.
+Mesmo após o surgimento de diversas tecnologias modernas, o PHP continua sendo amplamente utilizado e atualizado, mantendo sua relevância no mercado de desenvolvimento.
 
-
-##Bibliografia
-
-##Documentação Oficial
-
+# Bibliografia
+## Documentação Oficial
 PHP Manual – História do PHP
 https://www.php.net/manual/en/history.php
 PHP: Hypertext Preprocessor (site oficial)
 https://www.php.net
-
-##Livros e referências técnicas
-
+### Livros e referências técnicas
 LERDORF, Rasmus; TAIROV, Peter. PHP: A History and Overview. O’Reilly Media, 2018.
 GUTMANS, Andi; SURASKI, Zeev. PHP 5 Power Programming. Prentice Hall PTR, 2004.
-
-##Artigos e fontes de uso no mercado
-
+#### Artigos e fontes de mercado
 W3Techs – Usage statistics of PHP
 https://w3techs.com/technologies/details/pl-php
 WordPress – About
