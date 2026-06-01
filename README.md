@@ -57,3 +57,68 @@ Mesmo após o surgimento de diversas tecnologias modernas, o PHP continua sendo 
 # Responsável pela Pesquisa
 
 Lucas Gabriel Lopes da Silva
+# PHP (Hypertext Preprocessor)
+
+O PHP (Hypertext Preprocessor) é uma das linguagens de programação mais populares do mundo, especialmente voltada para o desenvolvimento web (lado do servidor/backend).
+
+Abaixo, apresento as principais vantagens, desvantagens e a história por trás da criação da linguagem.
+
+## Quem são os criadores do PHP?
+
+O PHP foi criado originalmente por Rasmus Lerdorf em 1994.
+
+No início, não era uma linguagem de programação propriamente dita, mas sim um conjunto de scripts em C que Rasmus usava para monitorar as visitas ao seu currículo online. Ele chamou o projeto de PHP/FI (Personal Home Page / Forms Interpreter).
+
+### A Evolução (Co-criadores)
+
+O PHP só se transformou na linguagem robusta que conhecemos hoje quando outros dois desenvolvedores entraram em cena:
+
+- Andi Gutmans
+- Zeev Suraski
+
+Em 1997, eles reescreveram o analisador (parser) do PHP do zero, dando origem ao PHP 3. Eles também fundaram a Zend Technologies (o nome "Zend" é a junção de Zeev e Andi), empresa que passou a focar no desenvolvimento do motor do PHP (Zend Engine), que ainda hoje alimenta a linguagem.
+
+## Vantagens do PHP
+
+- **Fácil de aprender e usar:** A curva de aprendizado é muito suave, especialmente para quem já entende o básico de HTML. O código PHP pode ser embutido diretamente no HTML.
+
+- **Comunidade gigantesca e suporte:** Por ser uma linguagem antiga e amplamente utilizada, é extremamente fácil encontrar tutoriais, fóruns, soluções de problemas e bibliotecas prontas.
+
+- **Hospedagem barata e acessível:** Quase qualquer serviço de hospedagem de sites oferece suporte nativo e simplificado para PHP.
+
+- **Ecossistema poderoso (WordPress e Laravel):** O PHP é a base do WordPress e de frameworks modernos como Laravel, que aceleram o desenvolvimento de sistemas complexos.
+
+- **Multiplataforma e ótimo com bancos de dados:** Roda em Windows, Linux e macOS, além de possuir integração eficiente com diversos bancos de dados, especialmente MySQL e MariaDB.
+
+## Desvantagens do PHP
+
+- **Inconsistência na sintaxe histórica:** Algumas funções nativas possuem nomenclaturas inconsistentes devido à evolução rápida da linguagem ao longo dos anos.
+
+- **Histórico ruim com segurança:** O PHP em si é seguro, porém muitos problemas surgiram por causa de práticas inadequadas de programação.
+
+- **Arquitetura síncrona nativa:** Por padrão, o PHP executa uma requisição por vez por thread. Existem soluções modernas para assincronismo, mas outras linguagens lidam com isso de forma mais natural.
+
+- **Preconceito no mercado:** Versões antigas contribuíram para a fama de linguagem ultrapassada, apesar dos avanços significativos das versões mais recentes.
+
+## Bibliografia
+
+### Livros e Manuais Técnico-Históricos
+
+- LERDORF, Rasmus; TAIROV, Peter. *PHP: A History and Overview*. O'Reilly Media, 2018.
+
+- GUTMANS, Andi; SURASKI, Zeev; BAKKEN, Stig S. *PHP 5 Power Programming*. Prentice Hall PTR, 2004.
+
+- CONVERSE, Tim; PARK, Joyce; MORGAN, Clark. *PHP 5 Bible*. Wiley Publishing, 2004.
+
+### Documentação e Recursos Digitais Oficiais
+
+- PHP Manual: History of PHP and related projects.
+  https://www.php.net/manual/en/history.php
+
+- Zend Technologies: The History of PHP.
+  https://www.zend.com
+
+### Artigos e Estatísticas de Mercado
+
+- W3Techs. Usage statistics of PHP for websites.
+  https://w3techs.com/technologies/details/pl-php
