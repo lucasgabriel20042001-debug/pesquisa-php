@@ -146,3 +146,110 @@ Em 1997, eles reescreveram o analisador (parser) do PHP do zero, dando origem ao
 
 - W3Techs. Usage statistics of PHP for websites.
   https://w3techs.com/technologies/details/pl-php
+
+
+
+
+
+# Responsável pela Pesquisa: Rafael Barbosa Carlos Rocha
+
+### O PHP (Hypertext Preprocessor) é uma linguagem de programação amplamente usada para desenvolvimento web no lado do servidor. Suas principais características incluem:
+
+ 1. Código executado no servidor
+
+O PHP é processado no servidor web, gerando HTML que é enviado ao navegador do usuário. Isso permite criar páginas dinâmicas e interativas.
+
+2. Suporte à programação orientada a objetos
+
+Permite o uso de classes, objetos, herança, interfaces, traits e outros recursos modernos de programação.
+
+ 3. Compatível com diversos bancos de dados
+
+Integra-se facilmente com sistemas de banco de dados como:
+
+MySQL
+PostgreSQL
+SQLite
+Oracle Database
+
+### Principais áreas de aplicações:
+
+Desenvolvimento de Sites e Aplicações Web: Processa formulários, interage com bancos de dados e gera páginas HTML dinâmicas e personalizadas enviadas ao navegador.
+
+Sistemas de Gerenciamento de Conteúdo (CMS): É a base de plataformas gigantescas como o WordPress, Joomla e Drupal.Comércio
+
+ Eletrônico (E-commerce): Usado para criar lojas virtuais robustas, sistemas de carrinho de compras e integração com gateways de pagamento (ex: Magento e WooCommerce).
+O PHP (Hypertext Preprocessor) é uma linguagem de programação amplamente usada para desenvolvimento web no lado do servidor. Suas principais características incluem:
+
+ 1. Código executado no servidor
+
+O PHP é processado no servidor web, gerando HTML que é enviado ao navegador do usuário. Isso permite criar páginas dinâmicas e interativas.
+
+2. Suporte à programação orientada a objetos
+
+Permite o uso de classes, objetos, herança, interfaces, traits e outros recursos modernos de programação.
+
+ 3. Compatível com diversos bancos de dados
+
+Integra-se facilmente com sistemas de banco de dados como:
+
+MySQL
+PostgreSQL
+SQLite
+Oracle Database
+### Exemplos de código essenciais e muito utilizado no PHP:
+
+1. Conexão com banco de dados
+<?php
+$host = 'localhost';
+$dbname = 'meu_banco';
+$username = 'usuario';
+$password = 'senha';
+
+try {
+    $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8mb4", $username, $password);
+    // Configura o modo de erro do PDO para exceção
+    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    echo "Conexão realizada com sucesso!";
+} catch(PDOException $e) {
+    echo "Erro na conexão: " . $e->getMessage();
+}
+?>
+
+2. Validação e Sanitização de Formulários
+
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Sanitização: remove caracteres indesejados e tags HTML
+    $nome = filter_input(INPUT_POST, 'nome', FILTER_SANITIZE_FULL_SPECIAL_CHARS);
+    $email = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL);
+
+    if (!$email) {
+        echo "E-mail inválido!";
+    } else {
+        echo "Olá, " . htmlspecialchars($nome) . "! Dados recebidos com sucesso.";
+    }
+}
+?>
+
+3. Sessões e Autenticação de Usuários
+
+<?php
+// Inicia a sessão (deve ser chamada antes de qualquer saída HTML)
+session_start();
+
+// Armazenando dados na sessão (após o login bem-sucedido)
+$_SESSION['usuario_id'] = 42;
+$_SESSION['usuario_nome'] = 'João';
+
+// Verificando se o usuário está logado
+if (isset($_SESSION['usuario_id'])) {
+    echo "Bem-vindo de volta, " . $_SESSION['usuario_nome'] . "!";
+} else {
+    echo "Acesso negado. Por favor, faça login.";
+}
+
+// Para encerrar a sessão (logout)
+session_unset();
+session_destroy();
+?>
