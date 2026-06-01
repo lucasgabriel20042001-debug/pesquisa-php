@@ -17,7 +17,7 @@
 - Exemplos de código em PHP
 - Áreas de aplicação do PHP
 
-
+# Responsável pela Pesquisa: Lucas Gabriel Lopes da Silva
 # História da Linguagem PHP
 
 PHP é uma linguagem de programação voltada principalmente para o desenvolvimento web. Ela foi criada em 1994 por Rasmus Lerdorf, com o objetivo inicial de auxiliar no gerenciamento de páginas pessoais na internet. Na época, a linguagem era composta por um conjunto de scripts simples que permitiam coletar informações sobre visitantes de um site.
@@ -54,9 +54,17 @@ O PHP também é conhecido por sua facilidade de integração com HTML, caracter
 
 Mesmo após o surgimento de diversas tecnologias modernas, o PHP continua sendo amplamente utilizado e atualizado, mantendo sua relevância no mercado de desenvolvimento web.
 
-# Responsável pela Pesquisa
 
-Lucas Gabriel Lopes da Silva
+
+
+
+
+
+
+
+# Responsável pela Pesquisa: Gabriel Fernandes de Carvalho
+
+
 # PHP (Hypertext Preprocessor)
 
 O PHP (Hypertext Preprocessor) é uma das linguagens de programação mais populares do mundo, especialmente voltada para o desenvolvimento web (lado do servidor/backend).
